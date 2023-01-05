@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="h-16 items-center shadow-md flex justify-between px-6">
       <div className="flex gap-10">
-        <Link href="/">All Products</Link>
+        <Link href="/products">All Products</Link>
       </div>
       <div>
         <p className="tracking-tighter text-lg">lucy's shop</p>
