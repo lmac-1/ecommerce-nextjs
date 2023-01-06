@@ -8,7 +8,7 @@ export default function Header() {
         <Link href="/products">All Products</Link>
       </div>
       <div>
-        <p className="tracking-tighter text-lg">lucy's shop</p>
+        <p className="tracking-tighter text-lg">lucy&apos;s shop</p>
       </div>
       <div className="flex gap-6">
         <HeaderIcon src="./search.svg" alt="Icon for search" />
