@@ -11,9 +11,9 @@ export default function Header() {
         <p className="tracking-tighter text-lg">lucy&apos;s shop</p>
       </div>
       <div className="flex gap-6">
-        <HeaderIcon src="./search.svg" alt="Icon for search" />
-        <HeaderIcon src="./account.svg" alt="Icon for your account" />
-        <HeaderIcon src="./basket.svg" alt="Icon for shopping basket" />
+        <HeaderIcon src="/search.svg" alt="Icon for search" />
+        <HeaderIcon src="/account.svg" alt="Icon for your account" />
+        <HeaderIcon src="/basket.svg" alt="Icon for shopping basket" />
       </div>
     </header>
   );
