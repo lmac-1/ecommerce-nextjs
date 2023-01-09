@@ -14,7 +14,7 @@ export default function Layout({ children }: PropsWithChildren<any>) {
       </Head>
       <div className="min-h-screen">
         <Header />
-        <main className="container">{children}</main>
+        <main className="container mx-auto">{children}</main>
         <Footer />
       </div>
     </>
