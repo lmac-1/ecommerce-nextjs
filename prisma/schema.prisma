@@ -63,6 +63,7 @@ model Product {
   description String?     @db.VarChar(150)
   image       String?     @db.VarChar(200)
   category_id Int?
+  price       Decimal?    @db.Decimal(10, 2)
   orders      OrderItem[]
   category    Category?   @relation(fields: [category_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
 }
