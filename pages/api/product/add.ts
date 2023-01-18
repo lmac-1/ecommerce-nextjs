@@ -12,6 +12,7 @@ export default async function handler(
   const result = await prisma.product.create({
     data: {
       ...req.body,
+      currency: 'GBP',
     },
   });
   res.json(result);

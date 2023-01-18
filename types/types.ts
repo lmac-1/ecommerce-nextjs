@@ -6,7 +6,8 @@ export type DBProduct = {
   description: string | null;
   image: string | null;
   category_id: number | null;
-  price?: Decimal | null;
+  price: Decimal;
+  currency: string;
 };
 
 export type Product = {
@@ -15,5 +16,6 @@ export type Product = {
   description: string | null;
   image: string | null;
   category_id: number | null;
-  price?: string | null;
+  price: string;
+  currency: string;
 };

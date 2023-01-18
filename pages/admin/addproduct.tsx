@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { addProductsSchema } from '../../utils/yup/addProduct';
 import TextField from '../../components/form/TextField';
+import Button from '../../components/Button';
 
 type FormData = {
   name: string;
@@ -96,7 +97,7 @@ export default function AddProduct() {
                 register={register}
                 errors={errors}
               />
-              <button>Submit</button>
+              <Button>Submit</Button>
             </form>
           </>
         )}
